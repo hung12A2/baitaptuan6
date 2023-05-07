@@ -2,8 +2,8 @@ POST http://localhost:5000/api/auth/register
 Content-Type: application/json
 
 {
-  "username": "hung1311ccvnew3",
-  "password": "jim"
+  "username": "NewAcc4",
+  "password": "12345678"
 }
 
 ###
@@ -12,18 +12,18 @@ POST http://localhost:5000/api/auth/login
 Content-Type: application/json
 
 {
-  "username": "hung1311ccvnew3",
-  "password": "jim"
+  "username": "NewAcc5",
+  "password": "12345678"
 }
 
 ###
 
 POST http://localhost:5000/api/posts
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDYxYjk1YjdkMjljZTFiMTA5YmQxZTAiLCJpYXQiOjE2MTczNjIxNjV9.ZTwbrIeDpchmUjkNQv_bmBd7_Maw2Gp7Y1ioZx2s7i8
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDU3ZmEzZjM3ZTZjMzM2Y2NmZTdhODQiLCJpYXQiOjE2ODM0ODcyOTV9.hEfjAgx6JgG_iDA28n_LgHOT_LCumTA_GP0vhjFmZVg
 
 {
-  "title": "React",
+  "title": "Reac23t",
   "description": "React",
   "url": "react.com",
   "status": "TO LEARN"
@@ -32,7 +32,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDYxY
 ###
 
 GET http://localhost:5000/api/posts
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MDYxYjk1YjdkMjljZTFiMTA5YmQxZTAiLCJpYXQiOjE2MTcwMTk3ODF9.ri-nHdgZc1VQTocFLfMgF4_PhFf2TeUVqXLd8tpOkeA
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDU3ZmEzZjM3ZTZjMzM2Y2NmZTdhODQiLCJpYXQiOjE2ODM0ODcyOTV9.hEfjAgx6JgG_iDA28n_LgHOT_LCumTA_GP0vhjFmZVg
 
 ###
 
