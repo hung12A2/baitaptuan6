@@ -110,3 +110,12 @@ button.post-button.btn:active {
 .post-title {
 	margin-bottom: 0.5rem;
 }
+
+.anh {
+	width: 70%;
+	margin-left: 5%
+}
+
+.mr-8 {
+	margin-right : 16px
+}

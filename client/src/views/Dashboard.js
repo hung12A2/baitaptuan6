@@ -75,7 +75,7 @@ const Dashboard = () => {
 				{/* Open Add Post Modal */}
 				<OverlayTrigger
 					placement='left'
-					overlay={<Tooltip>Add a new thing to learn</Tooltip>}
+					overlay={<Tooltip>Add new blog</Tooltip>}
 				>
 					<Button
 						className='btn-floating'

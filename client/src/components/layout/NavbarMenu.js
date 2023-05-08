@@ -27,7 +27,7 @@ const NavbarMenu = () => {
 					height='32'
 					className='mr-2'
 				/>
-				LearnIt
+				Blog
 			</Navbar.Brand>
 
 			<Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -51,7 +51,7 @@ const NavbarMenu = () => {
 				</Nav>
 
 				<Nav>
-					<Nav.Link className='font-weight-bolder text-white' disabled>
+					<Nav.Link className='font-weight-bolder text-white mr-8' disabled>
 						Welcome {username}
 					</Nav.Link>
 					<Button

@@ -45,17 +45,17 @@ const AddPostModal = () => {
 	return (
 		<Modal show={showAddPostModal} onHide={closeDialog}>
 			<Modal.Header closeButton>
-				<Modal.Title>What do you want to learn?</Modal.Title>
+				<Modal.Title>Bạn muốn viết gì ?</Modal.Title>
 			</Modal.Header>
 			<Form onSubmit={onSubmit}>
 				<Modal.Body>
 					<Form.Group>
 						<Form.Control
 							type='text'
-							placeholder='Title'
+							placeholder='Tiêu đề'
 							name='title'
 							required
-							aria-describedby='title-help'
+							aria-describedby='Tiêu đề'
 							value={title}
 							onChange={onChangeNewPostForm}
 						/>
@@ -67,7 +67,7 @@ const AddPostModal = () => {
 						<Form.Control
 							as='textarea'
 							rows={3}
-							placeholder='Description'
+							placeholder='Nội dung'
 							name='description'
 							value={description}
 							onChange={onChangeNewPostForm}
@@ -76,7 +76,7 @@ const AddPostModal = () => {
 					<Form.Group>
 						<Form.Control
 							type='text'
-							placeholder='Youtube Tutorial URL'
+							placeholder='Link ảnh cho bài viết'
 							name='url'
 							value={url}
 							onChange={onChangeNewPostForm}
@@ -88,7 +88,7 @@ const AddPostModal = () => {
 						Cancel
 					</Button>
 					<Button variant='primary' type='submit'>
-						LearnIt!
+						Create !
 					</Button>
 				</Modal.Footer>
 			</Form>
