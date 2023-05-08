@@ -1,6 +1,7 @@
 import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import ActionButton from './ActionButton'
 
 
 const SinglePost = ({ post: { _id, status, title, description, url } }) => (
@@ -19,6 +20,9 @@ const SinglePost = ({ post: { _id, status, title, description, url } }) => (
 				<Row>
 					<Col>
 						<p className='post-title'>{title}</p>
+					</Col>
+					<Col className='text-right'>
+						<ActionButton url={url} _id={_id} />
 					</Col>
 				</Row>
 				<Row>
